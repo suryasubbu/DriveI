@@ -11,6 +11,7 @@ def record_audio(filename, duration):
     sd.wait()  
     wav.write(filename, 44100, audio)
 
+###transcribe
 
 def transcribe_audio(filename):
     model = whisper.load_model("turbo")  
